@@ -8,48 +8,48 @@
 # -----------------------------------------------------------------------------
 
 # 1. Clean slate
-rm -rf ~/scavenger_hunt
-mkdir -p ~/scavenger_hunt/{forest,mountain/cave,island,loot}
+rm -rf ./scavenger_hunt
+mkdir -p ./scavenger_hunt/{forest,mountain/cave,island,loot}
 
 # 2. Populate clues
 
 # Clue 1: root
-cat > ~/scavenger_hunt/clue1.txt <<EOF
+cat > ./scavenger_hunt/clue1.txt <<EOF
 Bravo! You’ve found the first clue.
 Venture into the forest next.
 EOF
 
 # Clue 2: forest
-cat > ~/scavenger_hunt/forest/note.txt <<EOF
+cat > ./scavenger_hunt/forest/note.txt <<EOF
 Well done. Next, a hidden file awaits in the mountain’s cave.
 Use ls -a inside mountain/cave to find it.
 EOF
 
 # Clue 3: mountain’s cave (hidden)
-cat > ~/scavenger_hunt/mountain/cave/.secret.txt <<EOF
+cat > ./scavenger_hunt/mountain/cave/.secret.txt <<EOF
 Almost there! Climb out to the mountain root for your next message.
 EOF
 
 # Clue 4: mountain root
-cat > ~/scavenger_hunt/mountain/scroll.txt <<EOF
+cat > ./scavenger_hunt/mountain/scroll.txt <<EOF
 Congratulations! Before the treasure, you must visit the island.
 Open island/treasuremap.txt with vi, uncomment “X marks the spot,” then run find_treasure.sh.
 EOF
 
 # Clue 5: island treasuremap (with commented “X marks the spot”)
-cat > ~/scavenger_hunt/island/treasuremap.txt <<EOF
+cat > ./scavenger_hunt/island/treasuremap.txt <<EOF
 # Welcome to the Island
 # X marks the spot
 EOF
 
 # 3. Create find_treasure.sh in island
-cat > ~/scavenger_hunt/island/find_treasure.sh <<'EOF'
+cat > ./scavenger_hunt/island/find_treasure.sh <<'EOF'
 #!/usr/bin/env bash
 # find_treasure.sh
 # Validates that island/treasuremap.txt has “X marks the spot” uncommented,
 # then creates the treasure (treasure_chest.txt) file
 #
-MAP="$HOME/scavenger_hunt/island/treasuremap.txt"
+MAP="$HOME/fall-code-camp-2025/scavenger_hunt/island/treasuremap.txt"
 
 # Check for the uncommented X line
 if grep -q '^X marks the spot$' "$MAP"; then
@@ -66,7 +66,7 @@ else
 fi
 EOF
 
-chmod +x ~/scavenger_hunt/island/find_treasure.sh
+chmod +x ./scavenger_hunt/island/find_treasure.sh
 
 # 4. Final instructions
-echo "Setup complete. Start your hunt in ~/scavenger_hunt."
+echo "Setup complete. Start your hunt in ./scavenger_hunt."
