@@ -1,2 +1,0 @@
-Congratulations! Before the treasure, you must visit the island.
-Open island/treasuremap.txt with vi, uncomment “X marks the spot,” then run find_treasure.sh.
