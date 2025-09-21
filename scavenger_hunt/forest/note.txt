@@ -1,0 +1,2 @@
+Well done. Next, a hidden file awaits in the mountain’s cave.
+Use ls -a inside mountain/cave to find it.
