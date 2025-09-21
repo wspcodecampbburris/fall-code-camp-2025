@@ -1,2 +1,0 @@
-Welcome, explorer!
-To find your next clue, change into the 'step1' directory.
