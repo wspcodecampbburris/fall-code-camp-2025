@@ -1,0 +1,72 @@
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* TODO: Change background color if desired */
+}
+
+header {
+    background-color: #333; /* TODO: Change header color if desired */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    /* TODO: Style the character's name (size, font, etc.) */
+}
+
+/* Profile Image */
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile-image img {
+    width: 200px; /* TODO: Adjust image size */
+    height: auto;
+    border-radius: 50%; /* TODO: Change rounding if desired */
+    border: 3px solid #333; /* TODO: Style border as needed */
+}
+
+/* Sections */
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings style */
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Contact info */
+.contact p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* TODO: Add more styles as desired for personalization */
