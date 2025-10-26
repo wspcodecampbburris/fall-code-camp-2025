@@ -4,38 +4,38 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4; /* TODO: Change background color if desired */
+    background-color: #f1a5cd4d;
 }
 
 header {
-    background-color: #333; /* TODO: Change header color if desired */
-    color: #fff;
+    background-color: #ffffff; 
+    color: #f485cbf0;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    /* TODO: Style the character's name (size, font, etc.) */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
 }
 
 /* Profile Image */
 .profile-image {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
 }
 
 .profile-image img {
-    width: 200px; /* TODO: Adjust image size */
+    width: 250px; 
     height: auto;
-    border-radius: 50%; /* TODO: Change rounding if desired */
-    border: 3px solid #333; /* TODO: Style border as needed */
+    border-radius: 50%; 
+    border: 3px solid #ffffff;
 }
 
 /* Sections */
 section {
-    background: #fff;
+    background: #fffdfd;
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
@@ -45,7 +45,7 @@ section {
 
 /* Headings style */
 h2 {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #efa8dd;
     padding-bottom: 10px;
 }
 
@@ -63,8 +63,8 @@ ul {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #f485cbf0;
     padding: 10px 0;
     margin-top: 40px;
 }
