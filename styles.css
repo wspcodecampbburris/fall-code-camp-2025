@@ -4,68 +4,50 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #013609;
+    background-color: burlywood; 
 }
 
 header {
-    background-color: #ebd2a1; 
-    color: #393737;
+    background-color: maroon; /* TODO: Change header color if desired */
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.75em;
+    /* TODO: Style the character's name (size, font, etc.) */
 }
 
 /* Profile Image */
 .profile-image {
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .profile-image img {
-    width: 70%; 
+    width: 200px; /* TODO: Adjust image size */
     height: auto;
-    border-radius: 10%; 
-    border: solid 0.25em #393737; 
+    border-radius: 50%; /* TODO: Change rounding if desired */
+    border: 3px solid #333; /* TODO: Style border as needed */
 }
 
 /* Sections */
 section {
-    background-color:azure;
+    background: #fff;
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-section h2 {
-    color: #013609;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.list-div {
-    display: inline-block;
-}
-
-.list-div div {
-    width: 50%;
-}
-
-.list-div ul li {
-    text-align: left;
 }
 
 /* Headings style */
 h2 {
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
-} 
+}
 
 /* Lists */
 ul {
@@ -81,8 +63,8 @@ ul {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #ebd2a1;
-    color: #393737;
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
     margin-top: 40px;
 }
