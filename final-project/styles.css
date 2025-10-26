@@ -4,43 +4,60 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4; /* TODO: Change background color if desired */
+    background-color: #9a2b34;
 }
 
 header {
-    background-color: #333; /* TODO: Change header color if desired */
-    color: #fff;
+    background-color: #9a2b34;
+    color: #f4dfb7;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    /* TODO: Style the character's name (size, font, etc.) */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:6.7em;
+}
+header p{
+    color:#f3bbbb;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
 }
 
 /* Profile Image */
 .profile-image {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
 }
 
 .profile-image img {
-    width: 200px; /* TODO: Adjust image size */
+    width: 60%;
     height: auto;
-    border-radius: 50%; /* TODO: Change rounding if desired */
-    border: 3px solid #333; /* TODO: Style border as needed */
+    border-radius: 45%;
+    border: 10px solid #dbaadb;
 }
 
 /* Sections */
 section {
-    background: #fff;
+    background:#673009;
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+section h2{
+    color:#dbaadb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+}
+section {
+    color:#f6f0e4
+}
+.contact{
+    text-align: center;
+    font-size:smaller
 }
 
 /* Headings style */
@@ -63,8 +80,8 @@ ul {
 /* Footer */
 footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    background-color: #f4dfb7;
+    color:#673009
     padding: 10px 0;
     margin-top: 40px;
 }
