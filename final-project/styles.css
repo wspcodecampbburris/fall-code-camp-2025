@@ -4,19 +4,20 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4; /* TODO: Change background color if desired */
+    background-color: #000000; 
 }
 
 header {
-    background-color: #333; /* TODO: Change header color if desired */
-    color: #fff;
+    background-color: #461212; 
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    /* TODO: Style the character's name (size, font, etc.) */
+   font-family:'Franklin Gothic Medium';
+    font-size:5em
 }
 
 /* Profile Image */
@@ -27,15 +28,15 @@ header h1 {
 }
 
 .profile-image img {
-    width: 200px; /* TODO: Adjust image size */
+    width: 300px; 
     height: auto;
-    border-radius: 50%; /* TODO: Change rounding if desired */
-    border: 3px solid #333; /* TODO: Style border as needed */
+    border-radius: 50%; 
+    border: 7px solid #000000;
 }
 
 /* Sections */
 section {
-    background: #fff;
+    background: #6e4d4d;
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
@@ -45,7 +46,7 @@ section {
 
 /* Headings style */
 h2 {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #f8f1f1;
     padding-bottom: 10px;
 }
 
@@ -68,5 +69,3 @@ footer {
     padding: 10px 0;
     margin-top: 40px;
 }
-
-/* TODO: Add more styles as desired for personalization */
